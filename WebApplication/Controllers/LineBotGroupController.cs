@@ -14,7 +14,7 @@ namespace WebApplication.Controllers
         public IHttpActionResult POST()
         {
             //todo:請換成你自己的token
-            string ChannelAccessToken = "!!!!!!請換成你自己的token!!!!";
+            string ChannelAccessToken = "cwYVPoIz9VcPv0KKWkFIQm35HLriveZHB1d/lc/UK8sjpXf0ofAUrBGRqh6+gebrcDQb0tSijjw5Y3b5vdtUf+C9oW8fjaQK4QNPaZ9B+1LSZMBRS+VxguoIC9n9Vq0ByVUsqS+FQFOoLCTsqK5rRQdB04t89/1O/w1cDnyilFU=";
 
             try
             {
