@@ -25,8 +25,8 @@ namespace WebApplication.Controllers
                 switch (item.type)
                 {
                     case "join":
-                        Message = $"有人把我加入{item.source.groupId}中了，大家好啊~";
-                      
+                        Message = $"有人把我加入{item.source.type}中了，大家好啊~";
+                        
                         //回覆用戶
                         isRock.LineBot.Utility.ReplyMessage(ReceivedMessage.events[0].replyToken, Message, ChannelAccessToken);
                         break;
